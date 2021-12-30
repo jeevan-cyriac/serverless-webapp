@@ -1,0 +1,34 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+tests/terraform/provider.tf
+tests/unit/spec/output.json
+tests/unit/.vendor/
+tests/unit/Gemfile.lock
+tests/terraform/terraform.tfvars
+tests/unit/terraform.tfvars
+
+.terraform.lock.hcl
+refresh-stderr
+refresh-stdout
+tfplan
+
+## Misc files
+*.bak
+*.zip
+*.swp
+*.DS_Store
+*.map
+*.log
+*.coverage
+*.ipynb_checkpoints
+*.py[cod]
+__pycache__/
+.idea/
